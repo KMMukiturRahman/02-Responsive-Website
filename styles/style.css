@@ -85,6 +85,7 @@ body {
   }
   #menu {
   }
+  <!-- 
   .brand-new-group-container {
     top: 205px;
     left: 529px;
@@ -92,6 +93,7 @@ body {
     display: inline-block;
     width: 862px;
   }
+  
   .g3-architects {
     top: 50px;
     left: 228px;
@@ -144,7 +146,7 @@ body {
   /* facts section */
   .facts {
     display:flex;
-   
+    animation:  1s ease-in-out 0.5s 1 alternate ;
    
   }
 
@@ -164,6 +166,7 @@ body {
     top: 58px;
     left: 0;
     font-weight: 600;
+    animation:  1s ease-in-out 0.5s 1 alternate ;
   }
   .div {
     top: 0;
@@ -178,6 +181,7 @@ body {
     left: 697px;
     width: 160px;
     height: 81px;
+    animation:  1s ease-in-out 0.5s 1 alternate ;
   }
   .div1 {
     position: absolute;
@@ -326,6 +330,7 @@ body {
     height: 129px;
     font-size: var(--font-size-xl);
     color: var(--dark-01);
+    
   }
   .amazon-logo-icon,
   .spotify-logo-icon {
@@ -333,11 +338,14 @@ body {
     top: 4264px;
     height: 50px;
     mix-blend-mode: luminosity;
+    /* animation */
+    animation: sliding 1s ease-in-out 0.5s 1 alternate ;
   }
   .spotify-logo-icon {
     left: 240px;
     width: 166.76px;
     overflow: hidden;
+    animation:  1s ease-in-out 0.5s 1 alternate ;
   }
   .amazon-logo-icon {
     left: 562px;
@@ -348,6 +356,7 @@ body {
     left: 883px;
     width: 153.33px;
     height: 50px;
+   
   }
   .figma-logo-icon,
   .google-logo-icon,
@@ -606,6 +615,8 @@ body {
     left: 0;
     width: 342px;
     height: 200px;
+    animation: sliding 1s ease-in-out 0.5s 1 alternate ;
+   
   }
   .rectangle-parent5 {
     position: absolute;
@@ -651,6 +662,7 @@ body {
     color: var(--dark-03);
     font-family: var(--font-work-sans);
   }
+  */
   /*............................... 
   Media Queries 
   .................................*/
@@ -658,12 +670,18 @@ body {
 
 @media only screen and (max-width:688px) {
   body {
-    width:100%;
+    left: 0px;
     padding-left: auto;
     left: 0px;
   }
-  .menu_item {
+  .g3-architects {
+    left: 0px;
+  }
+
+  .menu_item ul li {
+    left: 0px;
     grid-template-columns: repeat(1,1fr);
+    flex-direction: column;
   }
   .rectangle-parent{
     grid-template-columns: repeat(1,1fr);
