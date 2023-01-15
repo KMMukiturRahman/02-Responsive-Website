@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+  }
+  .brand-new {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .brand-new-group-container,
+  .g3-architects {
+    position: absolute;
+    color: var(--dark-01);
+    text-align: center;
+  }
+  .brand-new-group-container {
+    top: 205px;
+    left: 529px;
+    font-size: 64px;
+    display: inline-block;
+    width: 862px;
+  }
+  .g3-architects {
+    top: 50px;
+    left: 228px;
+    font-size: var(--font-size-xl);
+  }
+  .home-about-contact,
+  .there-are-many {
+    position: absolute;
+    line-height: 26px;
+    text-align: center;
+  }
+  .there-are-many {
+    top: 379px;
+    left: 526px;
+    font-size: var(--font-size-base);
+    display: inline-block;
+    width: 868px;
+  }
+  .home-about-contact {
+    top: 63px;
+    left: 1203px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark-02);
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-md);
+    background-color: var(--color-orange-100);
+    width: 180px;
+    height: 64px;
+  }
+  .explore-more {
+    position: absolute;
+    top: 21px;
+    left: 25px;
+    font-weight: 600;
+  }
